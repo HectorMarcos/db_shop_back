@@ -8,7 +8,7 @@ import java.util.Optional;
 @Repository /*REPOSITORY!!! DATA ACCESS*/
 
 public interface CustomerRepository extends JpaRepository<Customer, Long> {  /*LONG CUZ ID OF CUSTOMER IS LONG*/
-/*
+
     Void save(Optional<Customer> customerToUpdate);
-*/
+
 }

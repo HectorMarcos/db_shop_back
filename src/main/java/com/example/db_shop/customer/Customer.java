@@ -1,6 +1,7 @@
 package com.example.db_shop.customer;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity  /*ENTITY!!!*/
 @Table(name = "CUSTOMERS") /*MAP ENTITY AS TABLE*/
